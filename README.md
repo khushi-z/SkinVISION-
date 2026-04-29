@@ -5,12 +5,17 @@ SkinVision is a machine learning project that analyzes skin lesion images and ma
 
 ---
 
-## ⚙️ Features
-- 📊 Loads and processes HAM10000 dataset
-- 🖼️ Maps image IDs to actual image paths
-- ✅ Validates dataset integrity (missing image check)
-- 🧹 Clean and portable code (no local path dependency)
+## 📥 Dataset
 
----
+This project uses the HAM10000 dataset.
 
-## 📁 Project Structure
+Due to size limitations, the dataset is not included in this repository.
+
+You can download it from:
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+
+After downloading, place the files in the following structure:
+
+data/
+ ├── HAM10000_metadata.csv
+ └── HAM10000_images/
