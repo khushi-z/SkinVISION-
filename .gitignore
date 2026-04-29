@@ -1,4 +1,13 @@
+# models
 *.h5
-*.zip
+*.pt
+*.pkl
+
+# datasets
+data/
 *.csv
-data/CODE/env
+
+# system files
+.vscode/
+.kaggle/
+.env
